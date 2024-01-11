@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 24px; /* Tamaño normal del encabezado para pantallas más grandes */
+    font-size: 10px; /* Tamaño normal del encabezado para pantallas más grandes */
 }
 
 header .contacto {
