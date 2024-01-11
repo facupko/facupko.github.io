@@ -1,0 +1,139 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-image: url('imagenes/1.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ubicación real de tu imagen */
+    background-size: cover; /* Para asegurarte de que la imagen cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .contacto {
+    display: flex;
+    align-items: center;
+}
+
+header .contacto span {
+    margin-right: 20px;
+}
+
+header img {
+    width: 50px; /* Ajusta el tamaño del logo de Instagram según tus necesidades */
+    height: auto;
+    border-radius: 50%;
+}
+
+header h1 {
+        text-align: center;
+}
+
+header p {
+    text-align: right;
+    max-width: 250px; /* Puedes ajustar el valor según tus preferencias */
+    margin: 1 auto; /* Para centrar el párrafo si su ancho es menor que el máximo */
+}
+
+section {
+    max-width: 80%;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.productoh {
+    margin-bottom: 10px;
+    max-width: 400px;
+    background-color: black; /* Fondo negro */
+    padding: 10px; /* Añade espacio de relleno para separar el texto del borde */
+}
+
+.productoh h2 {
+    color: white; /* Texto blanco */
+}
+
+.productoI {
+    max-width: 80%; /* Ajusta el tamaño máximo según tus necesidades */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+.productoI img {
+    max-width: 80%; /* La imagen no puede superar el ancho del contenedor padre */
+    max-height: 80%; /* La imagen no puede superar la altura del contenedor padre */
+    display: block; /* Eliminar espacio adicional en la parte inferior de la imagen */
+    margin: 0 auto; /* Centrar la imagen dentro de su contenedor */
+    border: 1px solid #ddd;
+}
+
+.productoI h2 {
+    text-align: center;
+}
+
+.productoI h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.producto {
+    margin-bottom: 20px;
+}
+
+.producto img {
+    width: 49%;
+    height: 50%;
+    border: 1px solid #ddd;
+}
+
+.producto p {
+    text-align: center;
+}
+
+.producto h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+section#acerca-de {
+    background-color: #f9f9f9;
+}
+
+section#acerca-de h2 {
+    color: #333;
+    font-size: 50px; /* Puedes ajustar el tamaño según tus preferencias */
+    text-align: center;
+}
+
+
+section#acerca-de p {
+    color: black;
+    line-height: 1.6;
+    background-color: gray;
+    font-size: 20px; /* Puedes ajustar el tamaño según tus preferencias */
+}
+
+section .informacion-contacto {
+    margin-bottom: 50px; /* Ajusta el valor según sea necesario */
+}
+
